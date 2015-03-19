@@ -1,0 +1,9 @@
+/.idea/
+/assets/
+themes/leather/image/log-bg.jpg
+protected/runtime/
+protected/backend/runtime/
+/upload/
+/basic/
+/log.txt
+/api/

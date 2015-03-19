@@ -1,0 +1,22 @@
+.opacity (@opacity) {
+  @opacity2 : @opacity * 100;
+
+  filter: alpha(opacity=@opacity2);
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  opacity: @opacity;
+}
+
+.hover(@color:#E8F3F8) {
+  background-color: @color;
+  -webkit-transition: background 400ms ease-in, border 400ms linear;
+  -moz-transition: background 400ms ease-in, border 400ms linear;
+  -o-transition: background 400ms ease-in, border 400ms linear;
+  transition: background 400ms ease-in, border 400ms linear;
+}
+
+.border(@top:#FFFFFF, @right:@top, @bottom:@top, @left:@right) {
+  border-color: @top @right @bottom @left;
+  border-style: solid;
+  border-width: 1px;
+}

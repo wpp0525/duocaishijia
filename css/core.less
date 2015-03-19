@@ -1,0 +1,147 @@
+/*@CHARSET "UTF-8";*/
+@import "vars.less";
+@import "animation.less";
+
+/*
+    Document   : core
+    Created on : 2012-5-11, 16:59:23
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.TreeList {
+  .cat1 {
+	font-weight: 700;
+	padding-left: 3px;
+  }
+  .cat2 {
+	background: url("../images/arrs.gif") no-repeat scroll 10px -83px transparent;
+	color: @treeListCat2Color;
+	padding: 0 0 0 25px;
+  }
+}
+
+.pageWrap {
+  h2 {
+	color: @pageWrapColor;
+	margin: 15px 0;
+	font-size: 16px;
+  }
+  h4 {
+	background: url("../images/arrowleft-orange.gif") no-repeat scroll 0 5px transparent;
+	border-bottom: 1px solid #DDDDDD;
+	margin: 10px 0;
+	padding-left: 14px;
+  }
+  ol {
+	li {
+	  color: @pageWrapColor;
+	}
+  }
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+}
+
+table,
+td,
+th {
+  vertical-align: top;
+}
+
+.cart table,
+td,
+th {
+  vertical-align: middle;
+  border: solid 1px #DDDDDD;
+}
+
+.span-4 {
+  width: 150px;
+}
+
+.span-6 {
+  width: 230px;
+}
+
+.ColColorGray {
+  background: none repeat scroll 0 0 #EFEFEF;
+}
+
+.liststyle {
+  border: 1px solid #DDDDDD;
+  margin: 0;
+  width: 100%;
+  a {
+	padding-right: 5px;
+	text-decoration: underline;
+	&.lnk {
+	  text-decoration: none;
+	}
+  }
+  thead {
+	th {
+	  background: url("../images/tablethbg.gif") repeat scroll 0 0 transparent;
+	  font-size: @listStyleThFontSize;
+	  font-weight: 700;
+	  padding: 4px 3px;
+	  text-align: center;
+	  white-space: nowrap;
+	  .border(#FFFFFF, #DDDDDD, #CCCCCC, #FFFFFF);
+	}
+  }
+  td,
+  th {
+	padding: 4px;
+	text-align: center;
+	.border(#FFFFFF, #DDDDDD, #CCCCCC, #FFFFFF);
+  }
+  .viewpic {
+	background: url("../images/goodsgallary_icon.gif") no-repeat scroll 0 -25px transparent;
+	display: block;
+	height: 20px;
+	text-indent: -9999px;
+	width: 20px;
+  }
+  .addtocart {
+	background: url("../images/goodsgallary_icon.gif") no-repeat scroll 0 -100px transparent;
+	display: block;
+	height: 20px;
+	text-indent: -9999px;
+	width: 20px;
+  }
+  &.data {
+	tbody {
+	  th {
+		color: @listStyleDataThColor;
+		font-size: @listStyleDataThFontSize;
+		text-align: right;
+	  }
+	}
+	td {
+	  text-align: left;
+	}
+	.colspan {
+	  color: @listStyleDataColSpanColor;
+	  font-weight: 700;
+	  text-align: center;
+	  .border(#FFFFFF, NONE, #AAAAAA, NONE);
+	}
+  }
+}
+
+.liststyle_option th,
+.liststyle_option td {
+  background: none repeat scroll 0 0 @listStyleOptionBGColor;
+  padding: 5px;
+  text-align: left;
+}

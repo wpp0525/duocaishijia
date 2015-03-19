@@ -1,0 +1,187 @@
+@import "vars.less";
+@import "animation.less";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: @mainColor;
+  font: @mainFont;
+  background: @mainBackground;
+}
+
+#page {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: white;
+  border: 1px solid @pageBorderColor;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  border-top: 3px solid @headerBorderTop;
+}
+
+#content {
+  padding: 20px;
+}
+
+#sidebar {
+  padding: 20px 20px 20px 0;
+}
+
+#footer {
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: @footerFontSize;
+  text-align: center;
+  border-top: 1px solid @footerBorderTop;
+}
+
+#logo {
+  padding: 10px 20px;
+  font-size: @logoFontSize;
+}
+
+#mainmenu {
+  background: white url(../images/bg.gif) repeat-x left top;
+  ul {
+	padding: 6px 20px 5px 20px;
+	margin: 0px;
+	li {
+	  display: inline;
+	  a {
+		color: @mainMenuLiAColor;
+		background-color: transparent;
+		font-size: 12px;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 5px 8px;
+		&:hover {
+		  color: @mainMenuLiColor;
+		  text-decoration: none;
+		  .hover(@mainMenuLiBgcolor);
+		}
+	  }
+	}
+	li.active {
+	  a {
+		color: @mainMenuLiColor;
+		background-color: @mainMenuLiBgcolor;
+		text-decoration: none;
+	  }
+	}
+  }
+}
+
+div {
+  .flash-error,
+  .flash-notice,
+  .flash-success {
+	padding: .8em;
+	margin-bottom: 1em;
+	border: 2px solid @mainDivFlashBorderColor;
+  }
+  .flash-error {
+	background: @mainDivFlashErrorbgColor;
+	color: @mainDivFlashErrorColor;
+	border-color: @mainDivFlashErrorbdColor;
+	a {
+	  color: @mainDivFlashErrorAColor;
+	}
+  }
+  .flash-notice {
+	background: @mainDivFlashNoticebgColor;
+	color: @mainDivFlashNoticeColor;
+	border-color: @mainDivFlashNoticebdColor;
+	a {
+	  color: @mainDivFlashNoticeAColor;
+	}
+  }
+  .flash-success {
+	background: @mainDivFlashSuccessbgColor;
+	color: @mainDivFlashSuccessColor;
+	border-color: @mainDivFlashSuccessbdColor;
+	a {
+	  color: @mainDivFlashSuccessAColor;
+	}
+  }
+  .form {
+	.rememberMe {
+	  label {
+		display: inline;
+	  }
+	}
+  }
+  .view {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid @mainDivViewbdColor;
+  }
+  .breadcrumbs {
+	font-size: @mainDivBreadcrumbsFontSize;
+	padding: 5px 20px;
+	span {
+	  font-weight: bold;
+	}
+  }
+  .search-form {
+	padding: 10px;
+	margin: 10px 0;
+	background: @mainDivSearchFormbgColor;
+  }
+}
+
+.portlet-decoration {
+  padding: 3px 8px;
+  background: @mainPortletDecorationbgColor;
+  border-left: 5px solid @mainPortletDecorationbdColor;
+}
+
+.portlet-title {
+  font-size: @mainPortletTitleColor;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: @mainPortletTitleColor;
+}
+
+.portlet-content {
+  font-size: @mainPortletcontentFontSize;
+  margin: 0 0 15px 0;
+  padding: 5px 8px;
+  background: @mainPortletcontentColor;
+  ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  li {
+	padding: 2px 0 4px 0px;
+  }
+}
+
+.operations {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+	padding-bottom: 2px;
+	a {
+	  font: @mainOperationsliAFont;
+	  color: @mainOperationsliAColor;
+	  display: block;
+	  padding: 2px 0 2px 8px;
+	  line-height: 15px;
+	  text-decoration: none;
+	  &:visited {
+		color: @mainOperationsliAvColor;
+	  }
+	  &:hover {
+		.hover(@mainOperationsliAhColor);
+	  }
+	}
+  }
+}

@@ -1,0 +1,197 @@
+/*@CHARSET "UTF-8";*/
+.space {
+  margin-top: 15px;
+}
+.overlay-popup {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+}
+.popup-container {
+  width: 360px;
+  height: 158px;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  border-radius: 5px;
+  z-index: 3000;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.popup-container .close {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+.popup-iframe {
+  display: block;
+  margin: 20px auto;
+  width: 95%;
+  height: 90%;
+}
+.message {
+  width: 90%;
+  height: 80%;
+}
+.error-message {
+  margin: 10%;
+  font-size: 15px;
+  color: #040404;
+}
+#table-th {
+  text-align: center;
+  background: #cccccc;
+}
+#describe_3 {
+  text-align: center;
+}
+.slidesjs-container div a {
+  display: block;
+  height: 500px;
+}
+.mainad {
+  margin: 0 auto;
+  width: 1180px;
+  height: 412px;
+}
+.mainad .spa {
+  float: left;
+  display: inline-block;
+  height: 412px;
+  width: 196px;
+}
+.mainad .spa .spa_list1 {
+  float: left;
+  background: url("../images/spa1.png") no-repeat scroll 10px 28px rgba(0, 0, 0, 0);
+  border: 1px solid #dfdfdf;
+  color: #6f6f6f;
+  font-size: 16px;
+  height: 189px;
+  padding-left: 42px;
+  padding-top: 28px;
+}
+.mainad .spa .spa_list1 ul {
+  float: left;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 0;
+  padding-top: 11px;
+  width: 129px;
+  word-break: break-all;
+  word-wrap: normal;
+}
+.mainad .spa .spa_list1 ul a {
+  float: left;
+  color: #535252;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 5px;
+  word-break: normal;
+  word-wrap: break-word;
+}
+.mainad .spa .spa_list2 {
+  float: left;
+  background: url("../images/jiajuSPA.png") no-repeat scroll 10px 28px rgba(0, 0, 0, 0);
+  border: 1px solid #dfdfdf;
+  color: #6f6f6f;
+  font-size: 16px;
+  height: 223px;
+  padding-left: 42px;
+  padding-top: 28px;
+}
+.mainad .spa .spa_list2 ul {
+  float: left;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 0;
+  padding-top: 11px;
+  width: 129px;
+  word-break: break-all;
+  word-wrap: normal;
+}
+.mainad .spa .spa_list2 ul a {
+  float: left;
+  color: #535252;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 5px;
+  word-break: normal;
+  word-wrap: break-word;
+}
+.mainad #mainbody {
+  display: inline-block;
+  float: right;
+  height: 412px;
+  overflow: hidden;
+  width: 984px;
+}
+.mainad #mainbody .spa_list {
+  padding-top: 28px;
+  width: 195px;
+  height: 189px;
+  line-height: 19px;
+  font-size: 16px;
+  color: #6F6F6F;
+}
+.nav {
+  margin-bottom: 0px;
+}
+#stock {
+  font-size: 12px;
+}
+p {
+  padding: 6px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0;
+}
+#cartForm {
+  width: 100%;
+}
+h2 {
+  font-size: 20px;
+}
+#shipping-method-form input {
+  width: 220px;
+  height: 30px;
+}
+#shipping-method-form textarea {
+  width: 220px;
+}
+.video-img {
+  position: relative;
+  width: 370px;
+  height: 300px;
+}
+.video-tubiao {
+  font-size: 70px;
+  color: #6f6f6f;
+  display: none;
+  position: absolute;
+  left: 120px;
+  top: 115px;
+}
+.video-list li {
+  float: left;
+  margin: 15px;
+}
+#myTab {
+  background: #ffffff;
+}
+#myTab li {
+  width: 80px;
+}
+.login-nav2 ul a {
+  background-color: #f5f4f2;
+}

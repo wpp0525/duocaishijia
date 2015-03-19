@@ -1,0 +1,196 @@
+.ce_box{
+    width: 1180px;
+    margin:0 auto;
+    height: auto;
+    margin-bottom: 60px;
+}
+.login_tit .cel_num{
+    font-size: 16px;
+    font-weight: bold;
+    color: #53B213;
+}
+.cel_title{
+    width: 100%;
+    margin-bottom: 40px;
+    /*height: 200px;*/
+}
+.cel_title1{
+    width: 100%;
+    height: 44px;
+    background: #F6F6F6;
+    margin-bottom: 25px;
+}
+.cel_title1 .ce_lei{
+    font-size: 14px;
+    color: #333333;
+    line-height: 40px;
+    /*padding-left: 20px;*/
+    font-weight: bold;
+    float: left;
+}
+.cel_title1 .ce_leiimg{
+    float: right;
+    height: 40px;
+    margin-right: 20px;
+    line-height: 40px;
+
+}
+.cel_title1 a img{
+    margin-top: 0px;
+    margin-right: 6px;
+}
+.cel_title1 .ce_leiimg a{
+    color: #313531;
+}
+
+.ce_box table{
+    border: 1px solid #DEDEDE;
+    width: 650px;
+    margin: 0px 0px 40px 0px;
+}
+.ce_table td, tr ,td{
+    /*padding-bottom: 5px;*/
+}
+.ce_table th{
+    margin-top: 10px;
+    font-size: 16px;
+	border: 1px solid #DEDEDE;
+    font-weight: bold;
+    color: #53B213;
+}
+.ce_table td{
+    width: 12%;
+    font-size: 16px;
+}
+.ce_table a{
+    color: #333333;
+}
+.ce_table a img{
+    padding-right: 6px;
+    margin-top: 0px;
+}
+.cel_title21{
+    margin-left: 20px;
+}
+.ce_box p{
+    font-size: 14px;
+}
+.ce_box label{
+   font-weight:normal;
+}
+
+.cel_title22,.cel_title23,.cel_title24,.cel_title21{
+    width: 100%;
+    display: block;
+}
+.cel_title22,.cel_title23,.cel_title24,.cel_title21 p{
+    padding-left: 20px;
+}
+.cel_title221,.cel_title231,.cel_title241,.cel_title211{
+    width: 100%;
+    display: none;
+}
+.cel_title221,.cel_title231,.cel_title241,.cel_title211 p{
+    padding-left: 20px;
+}
+/*.dis_input{*/
+    /*display: inline;*/
+/*}*/
+/*.able_input{*/
+    /*display: none;*/
+/*}*/
+.ce_box input[type='button']{
+    width:100px ;
+    background: #48A11C;
+    height: 34px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #398439;
+}
+#ce_button,.ce_delete{
+    display:none;
+}
+.ce_delete{
+    width: 50%;
+    height: 20px;
+    margin-left: 350px;
+    color: #333333;
+}
+.ce_area{
+     width: 20%;
+     height: 20px;
+     /*margin-left: 10px;*/
+    color: #FF4F01;
+ }
+.ce_updarea{
+    width: 70px;
+    height: 20px;
+    margin-left: 10px;
+    color: #FF4F01;
+    display: none;
+}
+.ce_updarea input{
+    width:60px
+}
+.ce_areamem{
+    width: 10%;
+    height: 20px;
+    margin-left: 20px;
+    color: #333333;
+}
+.ce_delete:hover{
+    cursor: pointer;
+}
+/*去掉input的边框*/
+/*.ce_box input[name='dis_name']{*/
+    /*border: 1px;*/
+    /*border-bottom-style: none;*/
+    /*border-top-style: none;*/
+    /*border-left-style: none;*/
+    /*border-right-style: none;*/
+    /*background: none;*/
+    /*margin-top: 10px;*/
+    /*color: #53B213;*/
+    /*font-weight: bold;*/
+/*}*/
+.ce_box a:hover{
+    cursor: pointer;
+}
+.cel_title21  select{
+    color: #53B213;
+    font-weight: bold;
+}
+.success {
+    font-size: 14px;
+    /*color: red;*/
+}
+.ce_box .form-group label{
+    width: 60px;
+    text-align: right;
+    font-size: 12px;
+    display: inline-block;
+}
+.ce_box .form-group{
+    width: 800px;
+}
+.ce_box .form-group input{
+    width:380px ;
+    height: 34px;
+    padding-left: 10px;
+}
+
+.cel_title231 #measure-time_datetimepicker{
+	position: static;
+	margin-top: 0px;
+	margin-left: 62px;
+	width: 155px;
+}
+
+.label_class{
+	padding-left:20px;
+	display: inline-block;
+	width: 84px;
+}
+.ce_box .login_tit{
+	border: 0px;
+}
